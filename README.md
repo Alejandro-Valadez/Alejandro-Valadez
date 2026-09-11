@@ -91,13 +91,6 @@ Competition math, policy debate, and the occasional proof that eats a whole week
 | 🏅 | SEAMS Diligent Scholar Award | 2025 |
 | 🔬 | IJAS 98th Annual State Exposition — Silver Award | 2025 |
 
-`telemetry`
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Alejandro-Valadez&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Alejandro-Valadez&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages"/>
-</p>
-
 `let's talk`
 
 Collaboration, research, or nothing in particular.
