@@ -1,48 +1,54 @@
 <svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0a0e1a"/>
-      <stop offset="1" stop-color="#161129"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#818cf8"/>
-      <stop offset="1" stop-color="#22d3ee"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.30"/>
-      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
-    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 L0 0 0 40" fill="none" stroke="#1c2b42" stroke-width="1"/>
+    </pattern>
   </defs>
 
-  <rect width="1200" height="300" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="#080b12"/>
+  <rect width="1200" height="300" fill="url(#grid)"/>
+  <rect x="0.5" y="0.5" width="1199" height="299" fill="none" stroke="#1c2b42" stroke-width="1"/>
 
-  <circle cx="990" cy="150" r="180" fill="url(#glow)"/>
-
-  <g fill="#ffffff" opacity="0.5">
-    <circle cx="120" cy="38" r="1.3"/>
-    <circle cx="300" cy="24" r="1"/>
-    <circle cx="470" cy="52" r="1.4"/>
-    <circle cx="620" cy="20" r="1"/>
-    <circle cx="700" cy="70" r="1.2"/>
-    <circle cx="150" cy="270" r="1"/>
-    <circle cx="360" cy="280" r="1.2"/>
-    <circle cx="520" cy="265" r="1"/>
+  <!-- corner registration marks -->
+  <g stroke="#38bdf8" stroke-width="1.5" opacity="0.7">
+    <path d="M22 40 L22 22 L40 22"/>
+    <path d="M1160 22 L1178 22 L1178 40"/>
+    <path d="M22 260 L22 278 L40 278"/>
+    <path d="M1178 260 L1178 278 L1160 278"/>
   </g>
 
-  <g transform="translate(990,150)" fill="none" stroke="url(#accent)" stroke-width="1.6" opacity="0.85">
-    <ellipse rx="150" ry="55" transform="rotate(0)"/>
-    <ellipse rx="150" ry="55" transform="rotate(60)"/>
-    <ellipse rx="150" ry="55" transform="rotate(120)"/>
+  <!-- title -->
+  <text x="60" y="108" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="38" font-weight="700" letter-spacing="2" fill="#f2f5fa">ALEJANDRO VALADEZ</text>
+  <text x="61" y="136" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" letter-spacing="1.5" fill="#38bdf8">AEROSPACE · QUANTUM COMPUTING · COMPETITION MATH</text>
+
+  <!-- dimension rule -->
+  <line x1="61" y1="158" x2="520" y2="158" stroke="#2b3d57" stroke-width="1"/>
+  <line x1="61" y1="152" x2="61" y2="164" stroke="#2b3d57" stroke-width="1"/>
+  <line x1="520" y1="152" x2="520" y2="164" stroke="#2b3d57" stroke-width="1"/>
+  <text x="270" y="150" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" letter-spacing="1.5" fill="#4c6180">FIG. 01 — PROFILE INDEX</text>
+
+  <!-- title block -->
+  <g transform="translate(61,190)">
+    <rect width="300" height="78" fill="#0d1420" stroke="#243654" stroke-width="1"/>
+    <line x1="0" y1="20" x2="300" y2="20" stroke="#243654" stroke-width="1"/>
+    <line x1="90" y1="0" x2="90" y2="78" stroke="#243654" stroke-width="1"/>
+    <text x="10" y="14" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" letter-spacing="1.5" fill="#5b7396">PROFILE SPEC</text>
+    <text x="10" y="36" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#5b7396">CLASS</text>
+    <text x="100" y="36" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#c7d2e2">IMSA '29 · SOPHOMORE</text>
+    <text x="10" y="54" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#5b7396">ORIGIN</text>
+    <text x="100" y="54" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#c7d2e2">CHICAGO, IL</text>
+    <text x="10" y="70" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#5b7396">REV</text>
+    <text x="100" y="70" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#c7d2e2">2026</text>
   </g>
-  <circle cx="990" cy="150" r="9" fill="url(#accent)"/>
-  <circle cx="1097" cy="112" r="4" fill="#22d3ee" opacity="0.9"/>
-  <circle cx="878" cy="193" r="4" fill="#818cf8" opacity="0.9"/>
 
-  <rect x="60" y="44" rx="12" ry="12" width="230" height="27" fill="none" stroke="#39415c" stroke-width="1"/>
-  <text x="76" y="62" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="2" fill="#8b93b0">ALEJANDRO VALADEZ</text>
-
-  <text x="60" y="150" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="44" font-weight="700" fill="#f4f5f8">I build tools</text>
-  <text x="60" y="197" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="36" font-weight="700" fill="url(#accent)">for problems I actually have.</text>
-
-  <text x="62" y="248" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="2.5" fill="#7c869f">AEROSPACE · QUANTUM COMPUTING · COMPETITION MATH · IMSA '29</text>
+  <!-- schematic wing sketch, right side -->
+  <g transform="translate(760,60)" fill="none" stroke="#2f6690" stroke-width="1.3">
+    <path d="M40 90 L220 40 L340 46 L360 60 L230 66 L180 150 L140 150 L165 68 L60 100 Z" stroke-dasharray="4 3"/>
+    <circle cx="340" cy="46" r="2.5" fill="#38bdf8" stroke="none"/>
+    <circle cx="140" cy="150" r="2.5" fill="#38bdf8" stroke="none"/>
+  </g>
+  <line x1="800" y1="230" x2="1140" y2="230" stroke="#2b3d57" stroke-width="1"/>
+  <line x1="800" y1="224" x2="800" y2="236" stroke="#2b3d57" stroke-width="1"/>
+  <line x1="1140" y1="224" x2="1140" y2="236" stroke="#2b3d57" stroke-width="1"/>
+  <text x="925" y="222" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" letter-spacing="1.5" fill="#4c6180">SWEPT WING — 34°</text>
 </svg>
