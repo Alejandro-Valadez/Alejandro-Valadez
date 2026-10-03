@@ -3,19 +3,20 @@
 </p>
 
 <p align="center">
-  <a href="https://portfolio-site-omega-two-79.vercel.app">Portfolio</a> ·
+  <a href="https://alejandrovaladez.me">Portfolio</a> ·
   <a href="https://link-in-bio-beta-ten.vercel.app">Links</a> ·
   <a href="https://www.linkedin.com/in/alejandro-valadez">LinkedIn</a> ·
   <a href="mailto:alejandrovaladezmail@gmail.com">Email</a>
 </p>
 
-### 01 — What I Build
+### 01 — Who I Am
 
-I'm a sophomore at the **Illinois Mathematics and Science Academy**, working across aerospace engineering, quantum computing, and competition math. Most of what I build starts the same way: something is slow or annoying, so I write a tool that isn't. Most recently, that was an MCP server that lets Claude read my Canvas coursework instead of me digging through it myself.
+I'm a sophomore at the **Illinois Mathematics and Science Academy** focused on aerospace engineering, finance, and business. I want to challenge myself, keep learning, and understand the world at a deeper level. Most of what I build starts the same way: something is slow or annoying, so I write a tool that isn't. Most recently, that was an MCP server that lets Claude read my Canvas coursework instead of me digging through it myself.
 
-- **Aerospace** — a month with CIEE in Toulouse, France, in partnership with Airbus, studying the engineering behind the A350 in the city that builds it.
-- **Software** — MCP servers, small Python and TypeScript tools, whatever removes the friction in front of me.
-- **Math & debate** — competition math, policy debate, and the occasional proof that eats a weekend.
+- **Aerospace** — on scholarship, a month with CIEE in Toulouse, France, in partnership with Airbus. I led my team's model rocket build at INSA Toulouse, designed in OpenRocket.
+- **Finance & business** — trading and investing since I was 10, and running a shaved ice and caramel apple stand since 2023, now run by my younger brother.
+- **Leadership** — elected Vice President of the Class of 2029 at Jones College Prep, 8th grade class president, and a tutor in IMSA's PROMISE program.
+- **Software** — MCP servers, games, and small Python and TypeScript tools: whatever removes the friction in front of me.
 
 ### 02 — Research & Recognition
 
@@ -27,17 +28,18 @@ I'm a sophomore at the **Illinois Mathematics and Science Academy**, working acr
 | Project | What it is | |
 |---|---|---|
 | **[canvas-mcp](https://github.com/Alejandro-Valadez/canvas-mcp)** | An MCP server that connects Claude to Canvas LMS — coursework, rubrics, submissions, and feedback, in plain conversation. | `source` |
-| **[portfolio-site](https://github.com/Alejandro-Valadez/portfolio-site)** | This portfolio — Next.js, deployed on Vercel. | `live` |
+| **[le-grand-tour](https://github.com/Alejandro-Valadez/le-grand-tour)** | A multiplayer French-review board game for 2–6 players on their phones, built solo as a [website](https://le-grand-tour.vercel.app) and then as a published Roblox game in Luau. | `live` |
+| **[portfolio-site](https://github.com/Alejandro-Valadez/portfolio-site)** | My portfolio at [alejandrovaladez.me](https://alejandrovaladez.me): Next.js, deployed on Vercel. | `live` |
 | **[link-in-bio](https://link-in-bio-beta-ten.vercel.app)** | Link-in-bio landing page for everything else. | `live` |
 | **[mathutils](https://github.com/Alejandro-Valadez/mathutils)** | A Python utility library. | `source` |
 
 ### 04 — Where I Work & Learn
 
-**Illinois Mathematics and Science Academy** — Sophomore · IMSA PROMISE Program Tutor, 9th grade · AEROspace Club · Qubit (Quantum Computing Club) · Mu Alpha Theta · Speech Team
+**Illinois Mathematics and Science Academy** — Sophomore · IMSA PROMISE Program Tutor, 9th grade · AEROspace Club · IMSA Society of Engineers · TALENT (entrepreneurship) · Financial Empowerment Class · Speech Team
 
-**Jones College Prep** — Freshman year · Elected Vice President, Class of 2029 · 4.0 unweighted / 4.8 weighted GPA
+**Jones College Prep** — Freshman year · Elected Vice President, Class of 2029 · Underclassmen Spring Dance raised $3,000 · 4.0 unweighted / 4.8 weighted GPA
 
-**CIEE Toulouse — Airbus Partnership** — Aerospace engineering program, Summer 2026
+**CIEE Toulouse — Airbus Partnership** — Aerospace engineering program on scholarship, Summer 2026 · Rocket team lead
 
 **IMSA PROMISE Program** — Student, 2023–2026 → Tutor, 2026–present
 
@@ -66,7 +68,7 @@ I'm a sophomore at the **Illinois Mathematics and Science Academy**, working acr
 <p align="center">
   📧 <a href="mailto:alejandrovaladezmail@gmail.com">Email</a> ·
   💼 <a href="https://www.linkedin.com/in/alejandro-valadez">LinkedIn</a> ·
-  🌐 <a href="https://portfolio-site-omega-two-79.vercel.app">Portfolio</a>
+  🌐 <a href="https://alejandrovaladez.me">Portfolio</a>
 </p>
 
 <p align="center"><sub>Chicago, IL</sub></p>

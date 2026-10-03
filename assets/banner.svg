@@ -19,7 +19,7 @@
 
   <!-- title -->
   <text x="60" y="108" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="38" font-weight="700" letter-spacing="2" fill="#f2f5fa">ALEJANDRO VALADEZ</text>
-  <text x="61" y="136" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" letter-spacing="1.5" fill="#38bdf8">AEROSPACE · QUANTUM COMPUTING · COMPETITION MATH</text>
+  <text x="61" y="136" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" letter-spacing="1.5" fill="#38bdf8">AEROSPACE · FINANCE · BUSINESS · LEADERSHIP</text>
 
   <!-- dimension rule -->
   <line x1="61" y1="158" x2="520" y2="158" stroke="#2b3d57" stroke-width="1"/>
